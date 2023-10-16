@@ -17,17 +17,16 @@ Before you begin, ensure you have met the following requirements:
 - NetworkX and Matplotlib Python libraries installed
 - The Facebook dataset from SNAP
 
-## Getting Started
-
-First, clone this repository to your local machine. Make sure you have all prerequisites installed and configured.
+### Script Operations
 
 The script performs the following operations:
 
-Data Loading: Loads the Facebook dataset and initializes a cuGraph graph.
-Degree Calculation: Calculates the degree of each node in the network.
-PageRank Calculation: Computes the PageRank scores for each node, highlighting influential users in the social network.
-Betweenness Centrality Calculation: Computes the betweenness centrality scores for each node, identifying bridges or connectors in the social network.
-Community Detection: Applies the Louvain method for community detection, categorizing users into distinct communities, and calculates the modularity score.
-Visualization: Renders the network graph, color-coded based on community structure, using NetworkX and Matplotlib. It showcases the communities and highlights the relationships between users.
+1. **Data Loading:** Loads the Facebook dataset and initializes a cuGraph graph.
+2. **Degree Calculation:** Calculates the degree of each node in the network.
+3. **PageRank Calculation:** Computes the PageRank scores for each node, highlighting influential users in the social network.
+4. **Betweenness Centrality Calculation:** Computes the betweenness centrality scores for each node, identifying bridges or connectors in the social network.
+5. **Community Detection:** Applies the Louvain method for community detection, categorizing users into distinct communities, and calculates the modularity score.
+6. **Visualization:** Renders the network graph, color-coded based on community structure, using NetworkX and Matplotlib. It showcases the communities and highlights the relationships between users.
 
-![image](https://github.com/yaxan/Facebook_RAPIDS_cuGraph/assets/41130598/c418ae21-3241-483f-91ef-591db7394d05)
+![Visualization of Network Graph](https://github.com/yaxan/Facebook_RAPIDS_cuGraph/assets/41130598/c418ae21-3241-483f-91ef-591db7394d05)
+
