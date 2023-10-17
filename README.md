@@ -26,7 +26,7 @@ The script performs the following operations:
 3. **PageRank Calculation:** Computes the PageRank scores for each node, highlighting influential users in the social network.
 4. **Betweenness Centrality Calculation:** Computes the betweenness centrality scores for each node, identifying bridges or connectors in the social network.
 5. **Community Detection:** Applies the Louvain method for community detection, categorizing users into distinct communities, and calculates the modularity score.
-6. **Visualization:** Renders the network graph, color-coded based on community structure, using NetworkX and Matplotlib. It showcases the communities and highlights the relationships between users.
+6. **Visualization:** Renders the network graph, color-coded based on community structure, using NetworkX and Matplotlib. It showcases the communities and highlights the relationships between users. The second and third graphs do the same but resize the nodes based on page rank and betweenness centrality, respectively.
 
 ![Visualization of Network Graph](https://github.com/yaxan/Facebook_RAPIDS_cuGraph/assets/41130598/345c9541-e713-44d6-8005-fb78bbbfdd0f)
 ![Visualization of Network Graph with page rank](https://github.com/yaxan/Facebook_RAPIDS_cuGraph/assets/41130598/38f2b53e-d353-41a8-b4b8-6daf1f5fcd45)
