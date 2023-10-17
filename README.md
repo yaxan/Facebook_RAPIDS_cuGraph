@@ -28,5 +28,7 @@ The script performs the following operations:
 5. **Community Detection:** Applies the Louvain method for community detection, categorizing users into distinct communities, and calculates the modularity score.
 6. **Visualization:** Renders the network graph, color-coded based on community structure, using NetworkX and Matplotlib. It showcases the communities and highlights the relationships between users.
 
-![Visualization of Network Graph](https://github.com/yaxan/Facebook_RAPIDS_cuGraph/assets/41130598/c418ae21-3241-483f-91ef-591db7394d05)
+![Visualization of Network Graph](https://github.com/yaxan/Facebook_RAPIDS_cuGraph/assets/41130598/345c9541-e713-44d6-8005-fb78bbbfdd0f)
+![Visualization of Network Graph with page rank](https://github.com/yaxan/Facebook_RAPIDS_cuGraph/assets/41130598/38f2b53e-d353-41a8-b4b8-6daf1f5fcd45)
+![Visualization of Network Graph with Betweenness](https://github.com/yaxan/Facebook_RAPIDS_cuGraph/assets/41130598/aed929a3-3c67-4aab-92bd-23f3c6dea1f7)
 
