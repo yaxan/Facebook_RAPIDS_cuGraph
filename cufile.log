@@ -118,3 +118,13 @@
  16-10-2023 18:18:54:556 [pid=3871 tid=3871] WARN   cufio-plat:429 GPU index 0 NVIDIA GeForce RTX 3070: Model Not Supported
  16-10-2023 18:18:54:556 [pid=3871 tid=3871] WARN   cufio-udev:165 failed in udev device create: /sys/bus/pci/devices/0000:01:00.0
  16-10-2023 18:18:54:619 [pid=3871 tid=3871] ERROR  cufio-topo-udev:431 no device entries present in platform topology
+ 16-10-2023 19:55:48:661 [pid=10393 tid=10393] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 16-10-2023 19:55:48:662 [pid=10393 tid=10393] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 16-10-2023 19:55:48:662 [pid=10393 tid=10393] WARN   0:172 failed to open /proc/driver/nvidia-fs/devcount  error: No such file or directory
+ 16-10-2023 19:55:48:662 [pid=10393 tid=10393] NOTICE  cufio-drv:705 running in compatible mode
+ 16-10-2023 19:55:48:662 [pid=10393 tid=10393] ERROR  cufio-plat:101 cannot open path /sys/bus/pci/devices/0000:01:00.0/resource No such file or directory
+ 16-10-2023 19:55:48:662 [pid=10393 tid=10393] WARN   cufio-plat:429 GPU index 0 NVIDIA GeForce RTX 3070: Model Not Supported
+ 16-10-2023 19:55:48:663 [pid=10393 tid=10393] WARN   cufio-udev:165 failed in udev device create: /sys/bus/pci/devices/0000:01:00.0
+ 16-10-2023 19:55:48:745 [pid=10393 tid=10393] ERROR  cufio-topo-udev:431 no device entries present in platform topology
